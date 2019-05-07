@@ -1,0 +1,195 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	/*.header, .cont, .padding{
+		width: 100%;
+	}*/
+	.te{
+		/*margin-left: 0;*/
+	}
+	.cl-sec, .right-sec{
+		width: 47.8%;
+	}
+	.stat, .stat.view{
+		width: 38%;
+	}
+	.stat img{
+		width: 100%;
+	}
+	.fourth .cl-sec {
+    	width: 60.5%;
+	}
+	.fourth .img img{
+		width: 100%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.firs, .sec, .third, .fourth, .fifth{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.cl{
+		width: 46.7%;
+	}
+	.m{
+		margin-bottom: 24px;
+	}
+	.cl-sec, .right-sec{
+		width: 100%;
+	}
+	.dia img{
+		width: 100%;
+	}
+	.stat, .stat.view {
+    	width: 48%;
+	}
+	.fourth .cl-sec, .fourth .cl-sec.sec{
+		width: 100%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.cl {
+    	width: 45.7%;
+	}
+	.small{
+		margin-bottom: 24px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.cl {
+    	width: 100%;
+	}
+	.sum-cont{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.donut{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		position: unset;
+		margin-top: 20px;
+	}
+	.inf{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.suc {
+    	padding: 0 15px;
+	}
+	.right-sec .cl-sec{
+		height: auto;
+	}
+	.stat, .stat.view {
+    	width: 100%;
+    	margin-left: 0;
+    	margin-right: 0;
+	}
+	.cl-sec.s.th{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.item{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.sum-cont.table-sec{
+		padding: 24px 10px;
+	}
+	.item span{
+		font-size: 12px;
+	}
+	td, th{
+		padding: 15px 2px;
+	}
+	.fourth .sum{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.suc {
+    	padding: 0 10px;
+	}
+	.fourth .suc.f {
+    	padding-left: 0;
+	}
+	.main-com, .li{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.com-text{
+		padding-left: 0;
+	}
+	.chat-content{
+		padding-left: 0;
+	}
+	.chat-time{
+		margin-left: 0;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 576px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  
+}
